@@ -1,0 +1,67 @@
+/*this is my code*/
+.header {
+	background-color: #548093;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	color: #FFF;
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+}
+
+.navbar {
+	background-color: #7FC7AF;
+	font-family: Georgia, serif;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+	margin: 20px;
+}
+
+.navbar a {
+	color: #FFF;
+	margin: 0 20px;
+	text-decoration: none;
+}
+	
+.navbar a:hover {
+	text-decoration: underline;
+}
+
+
+.flex-container {
+	background-color: #B4D4B7;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-around;
+	margin: 20px;
+	padding: 20px;
+	font-family: Georgia, serif;
+	color: #fff;
+	
+}
+
+.flex-container > section {
+	background-color: #548093;
+	color: #EBEB502;
+	line-height: 15px;
+    font-family: Arial;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+	border: 2px solid #ffffff;
+	border-radius: 12px;
+	padding: 5px;
+}
+
+.footer {
+	background-color: #F38630;
+	font-family: Arial;
+	color: #fff;
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+}
+
